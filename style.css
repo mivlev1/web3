@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    font: 12pt verdana;
+}
+header{
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 120px;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+.title{
+    max-width: 960px; 
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+    width: 100%;
+} 
+
+.text_block{
+    background-color: aqua;
+    height: 30px;
+    padding: 10px;
+    font: 20pt verdana;   
+}
+.logo{
+    border-radius: 25%;
+    height: 100px;
+    width:100px;
+    float:left;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.navigation{
+    text-align: center;
+    background-color: rgb(1, 200, 223);
+    max-width: 960px;
+    margin: auto;   
+    margin-top: 20px;
+    padding: 3px;
+}
+.navigation li{
+    background-color: rgb(15, 223, 223);
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+.navigation a{
+    display: block;
+    padding: 5px 15px;
+    color: black;
+    font: 20pt verdana;
+    font-size: 200%;
+    text-decoration: none;
+}
+.navigation a:hover{
+    background-color: aqua;
+}
+.content{
+    padding: 3px;
+    max-width: 960px; 
+    margin: 10px auto;
+    height: auto;
+    background-color: rgb(98, 255, 255);
+}
+footer{
+    width:100%;
+    background-color:cornflowerblue;
+    height: 60px;
+    
+    
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border: 1px solid brown;
+    border-color: black;
+    text-align: center;
+}
+tbody tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(151, 241, 151);
+}
+@media (max-width:767px){
+    .container{
+        max-width: none;
+    }
+}
+@media (max-width: 525px){
+    .navigation,table{
+        font-size: 10px;
+    }
+}
