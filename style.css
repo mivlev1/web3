@@ -123,10 +123,5 @@ tbody tr:nth-child(even){
         max-width: 960px;
         margin: 0 auto;
     }
-    .container__table{
-        
-    }
-    .container__form{
-        padding: 10px;
-    }
+   
 }
