@@ -171,8 +171,16 @@ tbody tr:nth-child(even){
         margin: 0 auto;
     }
 }
-@media screen and (min-width: 768px){
+ @media screen and (min-width: 768px){
     .menu{
         margin: 10px 10px 0 10px;
     }
 }
+@media screen and (min-width: 1024px){
+    .menu{
+        margin: 10px 0 0 0;
+    }
+    .header__title{
+        margin: 0;
+    }
+} 
