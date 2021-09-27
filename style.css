@@ -15,7 +15,7 @@ body{
 }
 .container{
     flex: 1 1 auto;
-    margin:10px;
+    margin: 10px;
 }
 
 .header__logo{
@@ -24,6 +24,9 @@ body{
     width:90px;
     margin: 5px 0 10px 0;
 }
+ .header__title{
+    margin: 0 10px 0 10px;
+} 
 .header{
     width: 100%;
     background-color: rgb(245,245,245,0.7); 
@@ -167,5 +170,9 @@ tbody tr:nth-child(even){
         max-width: 960px;
         margin: 0 auto;
     }
-   
+}
+@media screen and (min-width: 768px){
+    .menu{
+        margin: 10px 10px 0 10px;
+    }
 }
