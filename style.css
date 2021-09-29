@@ -109,12 +109,14 @@ body{
     border-bottom-color: rgba(128, 0, 128, 0.2);
 }
 .container__table{
-    background-color: rgb(107,186,117,0.5);
-    padding:10px
+    background-color: rgb(245,245,245,0.7);
+    padding:10px;
+    order: 3;
 }
 .container__form{
-    background-color: rgb(245,245,245,0.7);
-    padding:10px
+    background-color: rgb(107,186,117,0.5);
+    padding:10px;
+    order: 2;
 }
 .footer{
     width: 100%;
@@ -161,6 +163,17 @@ tbody tr:nth-child(even){
     }
     table{
         font-size: 20px;
+        
+    }
+    .container__table{
+        background-color: rgb(245,245,245,0.7);
+        padding:10px;
+        order: 2;
+    }
+    .container__form{
+        background-color: rgb(107,186,117,0.5);
+        padding:10px;
+        order: 3;
     }
     .header__text{
         font-size: 30px;
